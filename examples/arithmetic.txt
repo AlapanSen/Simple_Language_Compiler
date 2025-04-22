@@ -1,0 +1,22 @@
+{
+    // Basic arithmetic operations
+    var a = 10;
+    var b = 5;
+    
+    print "Addition:";
+    print a + b;
+    
+    print "Subtraction:";
+    print a - b;
+    
+    print "Multiplication:";
+    print a * b;
+    
+    print "Division:";
+    print a / b;
+    
+    // Order of operations
+    print "Order of operations:";
+    print 2 + 3 * 4;  // Should be 14, not 20
+    print (2 + 3) * 4;  // Should be 20
+} 

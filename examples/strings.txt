@@ -1,0 +1,24 @@
+{
+    /* String manipulation example */
+    
+    // String variables
+    var firstName = "John";
+    var lastName = "Doe";
+    
+    // Print individual strings
+    print "First name:";
+    print firstName;
+    print "Last name:";
+    print lastName;
+    
+    // Our language doesn't support string concatenation directly,
+    // but we can print strings sequentially
+    print "Hello,";
+    print firstName;
+    print lastName;
+    
+    // Variable reassignment
+    lastName = "Smith";
+    print "New last name:";
+    print lastName;
+} 

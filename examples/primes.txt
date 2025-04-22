@@ -1,0 +1,36 @@
+{
+    /* Find all prime numbers up to 50
+     * Uses a simple primality test
+     */
+    
+    // We don't have arrays, so we'll use a simpler approach
+    // Print each prime number as we find it
+    
+    print "Prime numbers up to 50:";
+    
+    var num = 2;  // Start with the first prime
+    
+    while (num <= 50) {
+        // Check if num is prime
+        var isPrime = 1;  // Assume it's prime
+        var divisor = 2;
+        
+        // Try to find a divisor
+        while (divisor < num) {
+            // If we find an exact divisor, it's not prime
+            if ((num / divisor) * divisor == num) {
+                isPrime = 0;
+                // Break the loop (simulate break with a large value)
+                divisor = num;
+            }
+            divisor = divisor + 1;
+        }
+        
+        // If still marked as prime, print it
+        if (isPrime == 1) {
+            print num;
+        }
+        
+        num = num + 1;
+    }
+} 

@@ -1,0 +1,57 @@
+{
+    /* String interpolation example */
+
+    // Basic variable interpolation
+    var name = "World";
+    print "Hello, ${name}!";
+
+    // Expression interpolation
+    var a = 10;
+    var b = 20;
+    print "The sum of ${a} and ${b} is ${a + b}";
+
+    // Multiple interpolations in one string
+    var firstName = "John";
+    var lastName = "Doe";
+    var age = 30;
+    print "Name: ${firstName} ${lastName}, Age: ${age}";
+
+    // Nested expressions
+    var x = 5;
+    print "The square of ${x} is ${x * x}";
+
+    // Boolean expressions
+    var isTrue = true;
+    print "The value is ${isTrue}";
+
+    // Floating point numbers
+    var pi = 3.14159;
+    print "PI rounded to 2 decimal places: ${pi}";
+
+    // Combining different types
+    var count = 3;
+    var item = "apple";
+    
+    // Calculate plural suffix
+    var suffix = "";
+    if (count != 1) {
+        suffix = "s";
+    }
+    print "I have ${count} ${item}${suffix}";
+
+    // Grade calculation
+    var score = 85;
+    var grade = "F";
+    if (score >= 90) {
+        grade = "A";
+    } else {
+        if (score >= 80) {
+            grade = "B";
+        } else {
+            if (score >= 70) {
+                grade = "C";
+            }
+        }
+    }
+    print "Your grade is ${grade}";
+} 

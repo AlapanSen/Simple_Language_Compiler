@@ -1,0 +1,28 @@
+{
+    var greeting = "Hello, World!";
+    print greeting;
+
+    var count = 5;
+    var sum = 0;
+
+    while (count > 0) {
+        print count;
+        sum = sum + count;
+        count = count - 1;
+    }
+
+    print "Sum is:";
+    print sum;
+
+    if (sum > 10) {
+        print "Sum is greater than 10";
+    } else {
+        print "Sum is not greater than 10";
+    }
+
+    var a = 10;
+    var b = 5;
+    var result = a * b / 2;
+    print "Result of calculation:";
+    print result;
+} 

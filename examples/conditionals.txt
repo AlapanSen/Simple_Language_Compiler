@@ -1,0 +1,55 @@
+{
+    /* Conditional logic example */
+    
+    // Test if-else with comparisons
+    var age = 18;
+    
+    if (age < 18) {
+        print "You are a minor";
+    } else {
+        print "You are an adult";
+    }
+    
+    // Test comparison operators
+    var x = 10;
+    var y = 10;
+    
+    print "Testing equality:";
+    if (x == y) {
+        print "x equals y";
+    } else {
+        print "x does not equal y";
+    }
+    
+    print "Testing less than or equal:";
+    if (x <= y) {
+        print "x is less than or equal to y";
+    }
+    
+    print "Testing greater than or equal:";
+    if (x >= y) {
+        print "x is greater than or equal to y";
+    }
+    
+    // Nested if statements
+    var score = 85;
+    
+    print "Grade:";
+    if (score >= 90) {
+        print "A";
+    } else {
+        if (score >= 80) {
+            print "B";
+        } else {
+            if (score >= 70) {
+                print "C";
+            } else {
+                if (score >= 60) {
+                    print "D";
+                } else {
+                    print "F";
+                }
+            }
+        }
+    }
+} 

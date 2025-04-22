@@ -1,0 +1,75 @@
+{
+    /* Example program to test boolean and float data types */
+    
+    print "Testing Boolean values:";
+    var isTrue = true;
+    var isFalse = false;
+    
+    print "isTrue:";
+    print isTrue;
+    print "isFalse:";
+    print isFalse;
+    
+    // Boolean operations
+    print "NOT isTrue:";
+    print !isTrue;
+    
+    print "isTrue && isFalse:";
+    print isTrue && isFalse;
+    
+    print "isTrue || isFalse:";
+    print isTrue || isFalse;
+    
+    // Equality operators
+    print "isTrue == true:";
+    print isTrue == true;
+    
+    print "isTrue != isFalse:";
+    print isTrue != isFalse;
+    
+    // Conditionals with boolean values
+    if (isTrue) {
+        print "This should be printed";
+    }
+    
+    if (isFalse) {
+        print "This should NOT be printed";
+    } else {
+        print "This should be printed instead";
+    }
+    
+    // Testing floating-point values
+    print "Testing floating-point values:";
+    var pi = 3.14159;
+    var e = 2.71828;
+    
+    print "pi:";
+    print pi;
+    print "e:";
+    print e;
+    
+    // Arithmetic with floats
+    print "pi + e:";
+    print pi + e;
+    
+    print "pi * e:";
+    print pi * e;
+    
+    print "pi / 2:";
+    print pi / 2;
+    
+    // Mixed integer and float
+    var intValue = 10;
+    print "intValue / 3 (int division):";
+    print intValue / 3;
+    
+    print "intValue / 3.0 (float division):";
+    print intValue / 3.0;
+    
+    // Comparison operators with floats
+    print "pi > e:";
+    print pi > e;
+    
+    print "pi >= e:";
+    print pi >= e;
+} 
